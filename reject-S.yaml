@@ -1,1 +1,84 @@
+payload:
+  # > Bilibili
+  # - USER-AGENT,bili*
+  - DOMAIN-SUFFIX,biligame.com
+  - DOMAIN-SUFFIX,acg.tv
+  - DOMAIN-SUFFIX,acgvideo.com
+  - DOMAIN-SUFFIX,b23.tv
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,biliapi.com
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,hdslb.com
+  - DOMAIN,upos-hz-mirrorakam.akamaized.net
+  - DOMAIN-SUFFIX,biligame.com
+  # Hong Kong, Macau, Taiwan
+  # - USER-AGENT,bili-inter*
+  - DOMAIN,apiintl.biliapi.net
+  # > Bahamut
+  # - USER-AGENT,Anime*
+  - PROCESS-NAME,tw.com.gamer.android.animad
+  - DOMAIN-SUFFIX,bahamut.com.tw
+  - DOMAIN-SUFFIX,gamer.com.tw
+  - DOMAIN,gamer-cds.cdn.hinet.net
+  - DOMAIN,gamer2-cds.cdn.hinet.net
+  
+   # > Hulu
+  - PROCESS-NAME,com.hulu.plus
 
+  - DOMAIN-SUFFIX,hulu.com
+  - DOMAIN-SUFFIX,hulu.hb.omtrdc.net
+  - DOMAIN-SUFFIX,hulu.sc.omtrdc.net
+  - DOMAIN-SUFFIX,huluad.com
+  - DOMAIN-SUFFIX,huluim.com
+  - DOMAIN-SUFFIX,hulumail.com
+  - DOMAIN-SUFFIX,huluqa.com
+  - DOMAIN-SUFFIX,hulustream.com
+
+  - DOMAIN,cs428.wpc.edgecastcdn.net
+  - DOMAIN,cws-hulu.conviva.com
+  - DOMAIN,hulu.com.c.footprint.net
+  - DOMAIN,hulu.map.fastly.net
+
+  - IP-CIDR,8.28.124.0/23
+  - IP-CIDR,199.60.116.0/24
+  - IP-CIDR,199.200.48.0/22
+  - IP-CIDR,208.91.156.0/22
+  - IP-CIDR6,2620:100:3000::/40
+  
+  # > IQIYI
+  # - USER-AGENT,*QIYI*
+  # - USER-AGENT,iQiYi*
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,qy.net
+  - DOMAIN-SUFFIX,gitv.tv
+  - DOMAIN-SUFFIX,71.am
+  - DOMAIN-KEYWORD,qiyi
+  - DOMAIN,cache.video.iqiyi.com
+
+# > miHoYo
+  - DOMAIN-SUFFIX,bh3.com
+  - DOMAIN-SUFFIX,hoyolab.com
+  - DOMAIN-SUFFIX,hoyoverse.com
+  - DOMAIN-SUFFIX,mihayo.com
+  - DOMAIN-SUFFIX,mihoyo.com
+  - DOMAIN-SUFFIX,miyoushe.com
+  - DOMAIN-SUFFIX,yuanshen.com
+  
+  # > KKTV
+  - PROCESS-NAME,com.kktv.kktv
+  - DOMAIN-SUFFIX,kktv.me
+  - DOMAIN-SUFFIX,kktv.com.tw
+  - DOMAIN,kktv-theater.kk.stream
+  
+   # > Tencent Video
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,vv.video.qq.com
+  - DOMAIN-SUFFIX,ottcn.com
+  - DOMAIN-SUFFIX,tc.qq.com
+  
+  - DOMAIN-SUFFIX,bcebos.com
+  - DOMAIN-SUFFIX,dbankcloud.com
