@@ -1,7 +1,10 @@
 payload:
   - DOMAIN-KEYWORD,chatgpt
+  - DOMAIN-KEYWORD,grok
+  - DOMAIN-KEYWORD,x.ai
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,gemini.google
+  - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,ab.chatgpt.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
